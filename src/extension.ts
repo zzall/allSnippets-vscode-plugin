@@ -30,9 +30,9 @@ export function activate(context: vscode.ExtensionContext) {
 		vscode.window.showInformationMessage('Hello VS Code!--test2');
 	});
 
-	context.subscriptions.push(disposable);
-	context.subscriptions.push(disposableTest);
-	context.subscriptions.push(disposableTest2);
+	// context.subscriptions.push(disposable);
+	// context.subscriptions.push(disposableTest);
+	// context.subscriptions.push(disposableTest2);
 }
 
 // This method is called when your extension is deactivated
