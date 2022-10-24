@@ -14,21 +14,15 @@ export function activate(context: vscode.ExtensionContext) {
 	// The command has been defined in the package.json file
 	// Now provide the implementation of the command with registerCommand
 	// The commandId parameter must match the command field in package.json
-	let disposable = vscode.commands.registerCommand('snippets-for-react-vue-other.helloWorld', () => {
-		// The code you place here will be executed every time your command is executed
-		// Display a message box to the user
-		vscode.window.showInformationMessage('Hello VS Code!');
-	});
-	let disposableTest = vscode.commands.registerCommand('snippets-for-react-vue-other.test', () => {
-		// The code you place here will be executed every time your command is executed
-		// Display a message box to the user
-		vscode.window.showInformationMessage('Hello VS Code!--test');
-	});
-	let disposableTest2 = vscode.commands.registerCommand('snippets-for-react-vue-other.test2', () => {
-		// The code you place here will be executed every time your command is executed
-		// Display a message box to the user
-		vscode.window.showInformationMessage('Hello VS Code!--test2');
-	});
+	// let disposable = vscode.commands.registerCommand('snippets-for-react-vue-other.helloWorld', () => {
+	// 	vscode.window.showInformationMessage('Hello VS Code!');
+	// });
+	// let disposableTest = vscode.commands.registerCommand('snippets-for-react-vue-other.test', () => {
+	// 	vscode.window.showInformationMessage('Hello VS Code!--test');
+	// });
+	// let disposableTest2 = vscode.commands.registerCommand('snippets-for-react-vue-other.test2', () => {
+	// 	vscode.window.showInformationMessage('Hello VS Code!--test2');
+	// });
 
 	// context.subscriptions.push(disposable);
 	// context.subscriptions.push(disposableTest);
