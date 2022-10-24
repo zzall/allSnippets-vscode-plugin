@@ -1,0 +1,45 @@
+{
+  "vueInit": {
+    "prefix": ["vueinit"],
+    "body": [
+      "<template lang=\"$1\">",
+      "\t<div$2>",
+      "\t\t",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script>",
+      "export default {",
+      "data() {",
+      "\treturn {",
+      "\t\t",
+      "\t}",
+      "},\n",
+      "created() {",
+      "\t$0",
+      "},",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"$1\">",
+      "\t",
+      "</style>"
+    ],
+    "description": "init vue base template"
+  },
+  "templateLang": {
+    "prefix": "templateLang",
+    "body": ["<template lang=\"$1\">", "\t<div$2>", "\t\t$0", "\t</div>", "</template>"],
+    "description": "template element"
+  },
+  "script": {
+    "prefix": "script",
+    "body": ["<script>", "export default {", "\t$0", "}", "</script>"],
+    "description": "script element"
+  },
+  "styleLang": {
+    "prefix": "styleLang",
+    "body": ["<style lang=\"$1\">", "\t$0", "</style>"],
+    "description": "style element with lang attribute"
+  }
+}
