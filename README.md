@@ -7,7 +7,7 @@
 下面简单介绍一下可使用的`snippets`有哪些
 
 * 在`React`文件中
-![React Snippets](images/react-ex1.gif)
+![React Snippets](./images/react-ex1.gif)
 ![React Snippets](images/react-ex2.gif)
 
 ---
