@@ -42,20 +42,7 @@
     "typescript"
   ],
   "contributes": {
-    "commands": [
-      {
-        "command": "snippets-for-react-vue-other.helloWorld",
-        "title": "Hello World"
-      },
-      {
-        "command": "snippets-for-react-vue-other.test",
-        "title": "Hello World--test"
-      },
-      {
-        "command": "snippets-for-react-vue-other.test2",
-        "title": "Hello World--test2"
-      }
-    ],
+    "commands": [],
     "snippets": [
       {
         "language": "javascriptreact",
