@@ -6,6 +6,17 @@
   "engines": {
     "vscode": "^1.72.0"
   },
+  "scripts": {
+    "vscode:prepublish": "pnpm run package",
+    "compile": "webpack",
+    "watch": "webpack --watch",
+    "package": "webpack --mode production --devtool hidden-source-map",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "pretest": "pnpm run compile-tests && pnpm run compile && pnpm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
   "categories": [
     "Snippets"
   ],
@@ -15,6 +26,23 @@
     "onCommand:snippets-for-react-vue-other.test2"
   ],
   "main": "./dist/extension.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zzall/allSnippets-vscode-plugin.git"
+  },
+  "keywords": [
+    "React",
+    "React JS",
+    "React Snippets",
+    "Vue 2 Snippets",
+    "Vue",
+    "Vscode Plugin",
+    "Snippets",
+    "JS",
+    "TS",
+    "javascript",
+    "typescript"
+  ],
   "contributes": {
     "commands": [
       {
@@ -117,17 +145,11 @@
       }
     ]
   },
-  "scripts": {
-    "vscode:prepublish": "pnpm run package",
-    "compile": "webpack",
-    "watch": "webpack --watch",
-    "package": "webpack --mode production --devtool hidden-source-map",
-    "compile-tests": "tsc -p . --outDir out",
-    "watch-tests": "tsc -p . -w --outDir out",
-    "pretest": "pnpm run compile-tests && pnpm run compile && pnpm run lint",
-    "lint": "eslint src --ext ts",
-    "test": "node ./out/test/runTest.js"
+  "funding": {
+    "type": "individual",
+    "url": "https://zzailianlian.github.io/#/fund"
   },
+  
   "devDependencies": {
     "@types/vscode": "^1.72.0",
     "@types/glob": "^8.0.0",
