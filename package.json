@@ -3,6 +3,8 @@
   "displayName": "Snippets For React/Vue/JS/TS",
   "description": "一个Snippets插件集成了市面上安装量较大的Vue 3 Snippets、Simple React Snippets，另新增一些常用js、ts语法的snippets",
   "version": "1.0.0",
+  "icon": "images/react-logo.png",
+  "publisher": "zzailianlian",
   "engines": {
     "vscode": "^1.72.0"
   },
@@ -149,7 +151,6 @@
     "type": "individual",
     "url": "https://zzailianlian.github.io/#/fund"
   },
-  
   "devDependencies": {
     "@types/vscode": "^1.72.0",
     "@types/glob": "^8.0.0",
