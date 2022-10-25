@@ -1,8 +1,8 @@
 {
   "name": "snippets-for-react-vue-other",
-  "displayName": "Snippets For React/Vue/JS/TS",
+  "displayName": "FE Snippets",
   "description": "一个Snippets插件集成了市面上安装量较大的Vue 3 Snippets、Simple React Snippets，另新增一些常用js、ts语法的snippets",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "icon": "images/react-logo.png",
   "publisher": "zzailianlian",
   "engines": {
