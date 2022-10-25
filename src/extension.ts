@@ -9,18 +9,18 @@ export function activate(context: vscode.ExtensionContext) {
 
 	// Use the console to output diagnostic information (console.log) and errors (console.error)
 	// This line of code will only be executed once when your extension is activated
-	console.log('Congratulations, your extension "snippets-for-react-vue-other" is now active!');
+	console.log('Congratulations, your extension "easy-fe-snippets" is now active!');
 
 	// The command has been defined in the package.json file
 	// Now provide the implementation of the command with registerCommand
 	// The commandId parameter must match the command field in package.json
-	// let disposable = vscode.commands.registerCommand('snippets-for-react-vue-other.helloWorld', () => {
+	// let disposable = vscode.commands.registerCommand('easy-fe-snippets.helloWorld', () => {
 	// 	vscode.window.showInformationMessage('Hello VS Code!');
 	// });
-	// let disposableTest = vscode.commands.registerCommand('snippets-for-react-vue-other.test', () => {
+	// let disposableTest = vscode.commands.registerCommand('easy-fe-snippets.test', () => {
 	// 	vscode.window.showInformationMessage('Hello VS Code!--test');
 	// });
-	// let disposableTest2 = vscode.commands.registerCommand('snippets-for-react-vue-other.test2', () => {
+	// let disposableTest2 = vscode.commands.registerCommand('easy-fe-snippets.test2', () => {
 	// 	vscode.window.showInformationMessage('Hello VS Code!--test2');
 	// });
 
