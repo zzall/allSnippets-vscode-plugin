@@ -8,5 +8,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Initial release
 
-- v1.0.7
+- v1.0.8
   fix: js/ts toggle vue-snippets;
+
+- v1.0.9
+  refactor: thin files structure
