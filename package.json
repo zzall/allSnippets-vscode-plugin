@@ -2,7 +2,7 @@
   "name": "easy-fe-snippets",
   "displayName": "Easy FE Snippets",
   "description": "一个Snippets插件集成了市面上安装量较大的Vue 3 Snippets、Simple React Snippets，另新增一些常用js、ts语法的snippets",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "icon": "images/react-logo.png",
   "publisher": "zzailianlian",
   "engines": {
@@ -29,6 +29,12 @@
     "url": "https://github.com/zzall/allSnippets-vscode-plugin.git"
   },
   "keywords": [
+    "Easy FE Snippets",
+    "easy fe snippets",
+    "Easy Snippets",
+    "easy snippets",
+    "FE Snippets",
+    "fe snippets",
     "React",
     "React JS",
     "React Snippets",
@@ -36,10 +42,15 @@
     "Vue",
     "Vscode Plugin",
     "Snippets",
+    "snippets",
     "JS",
     "TS",
     "javascript",
-    "typescript"
+    "typescript",
+    "easy",
+    "Easy",
+    "FE",
+    "fe"
   ],
   "contributes": {
     "commands": [],
@@ -91,14 +102,6 @@
       {
         "language": "typescript",
         "path": "./snippets/react/snippets-ts.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/vue/javascript.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/vue/javascript.json"
       },
       {
         "language": "html",
