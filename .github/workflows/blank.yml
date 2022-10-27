@@ -30,7 +30,7 @@ jobs:
         with:
           node-version: '14.20.1'
           
-      - run: npm ci
+#       - run: npm ci
           
 #   git:
 #       runs-on: ubuntu-latest
