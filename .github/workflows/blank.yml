@@ -39,12 +39,14 @@ jobs:
 #         run: |
 #           git tag 
           
-  package:
-      runs-on: ubuntu-latest
-      steps:    
+#  package:
+#     runs-on: ubuntu-latest
+#     steps:    
       - name: Install vsce
         run: |
           npm i vsce -g
           
-      - name: publish package
-        run: vsce publish
+      - name: vsce publish
+        uses: sigma/vsce-publish-action@v0.0.2
+        with:
+          vsce_token: ${{ secrets.VSCE_TOKEN }}
