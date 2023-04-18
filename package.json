@@ -2,7 +2,7 @@
   "name": "easy-fe-snippets",
   "displayName": "Easy FE Snippets",
   "description": "一个Snippets插件集成了市面上安装量较大的Vue 3 Snippets、Simple React Snippets，另新增一些常用js、ts语法的snippets",
-  "version": "1.0.9",
+  "version": "1.0.11",
   "icon": "images/react-logo.png",
   "publisher": "zzailianlian",
   "engines": {
@@ -40,7 +40,8 @@
     "easy",
     "Easy",
     "FE",
-    "fe"
+    "fe",
+    "front-end"
   ],
   "contributes": {
     "snippets": [

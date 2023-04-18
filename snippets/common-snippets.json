@@ -45,12 +45,12 @@
 		"description": "import two pointer statements"
 	},
 	"require statements": {
-		"prefix": "rr",
+		"prefix": "rrr",
 		"body": ["const $1 = require(\"$1\");"],
 		"description": "require statements"
 	},
 	"require two pointer statements": {
-		"prefix": "rrr",
+		"prefix": "rr",
 		"body": ["const $2 = require(\"$1\");"],
 		"description": "require two pointer statements"
 	}
