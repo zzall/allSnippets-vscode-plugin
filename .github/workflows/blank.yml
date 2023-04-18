@@ -30,21 +30,31 @@ jobs:
         with:
           node-version: '14.20.1'
           
-  git:
-      runs-on: ubuntu-latest
-      
-      steps:
-      
-      - name: Push tag version
-        run: |
-          git tag 
+#       - run: npm ci
           
-  package:
-      runs-on: ubuntu-latest
-      steps:    
-      - name: Install vsce
-        run: |
-          npm i vsce -g
+#   git:
+#       runs-on: ubuntu-latest
+      
+#       steps:
+      
+#       - name: Push tag version
+#         run: |
+#           git tag 
           
-      - name: publish package
-        run: vsce publish
+#  package:
+#     runs-on: ubuntu-latest
+#     steps:    
+      - name: Publish to Visual Studio Marketplace
+        uses: HaaLeo/publish-vscode-extension@v1
+        with:
+          pat: ${{ secrets.VSCE_TOKEN }}
+          registryUrl: https://marketplace.visualstudio.com
+
+  #    - name: Install vsce
+  #      run: |
+   #       npm i vsce -g
+          
+  #    - name: vsce publish
+   #     uses: sigma/vsce-publish-action@v0.0.2
+  #      with:
+  #        vsce_token: ${{ secrets.VSCE_TOKEN }}
